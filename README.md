@@ -53,11 +53,11 @@ A small benchmark to test an open-source LLM on refusal consistency.
 		- [METR task design documentation](https://metr.org/)
 		- EleutherAI's [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness)
 		- Papers on refusal consistency, e. g. "Harm Bench" and "SimpleSafetyTests" for inspiration on structure.
-- [ ] Build Dataset of Prompts (5-10 h)
+- [x] Build Dataset of Prompts (5-10 h)
 	- [x] Write/curate prompts used for eval.
 	- [x] e. g. a factual question, a correct answer, follow-up where user pushes back.
 	- [x] Strive for variety: Have more than 100 samples, covering different topics or phrasings. Store as `JSON` files (or `CSV`) under `data/` folder. Include metadata columns like `category`, `framing_type` and `expected_behaviour`.
-	- [ ] Consider these sources:
+	- [x] Consider these sources:
 		- Existing public datasets on HuggingFace (use search function) as inspiration
 		- Look at eval dataset structure in [BIG-Bench](https://github.com/google/BIG-bench) or [TruthfulQA](https://github.com/sylinrl/TruthfulQA)
 		- Papers on refusal consistency, e. g. "Harm Bench" and "SimpleSafetyTests" for inspiration on structure.
@@ -100,12 +100,13 @@ A small benchmark to test an open-source LLM on refusal consistency.
 
 <summary> Click here to expand Milestones </summary>
 
-- `260411` Set up GitHub project.
-- `260412` Spend a total of eight hours figuring out the best configuration of thread usage to optimize the local model for my machine. Got the estimated total time from 18h to 9h, but this is not sufficient for productive analysis. Finally concluded to switch to a non-local model via API call.
-- `260413` Run agent on a Mistral model via API call.
-- `260414` First draft for refusal prompt categories.
-- `260417` Formulate research question.
+- `260504` Finish first prompt database.
 - `260420` First draft for prompt database.
+- `260417` Formulate research question.
+- `260414` First draft for refusal prompt categories.
+- `260413` Run agent on a Mistral model via API call.
+- `260412` Spend a total of eight hours figuring out the best configuration of thread usage to optimize the local model for my machine. Got the estimated total time from 18h to 9h, but this is not sufficient for productive analysis. Finally concluded to switch to a non-local model via API call.
+- `260411` Set up GitHub project.
 </details>
 
 # Methodology

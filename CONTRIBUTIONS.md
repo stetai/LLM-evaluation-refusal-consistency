@@ -34,7 +34,9 @@ pip install mistral mistralai
 ```
 
 This is by default already included in the `requirements.txt`.
-Then add a Mistral API key
+Then add a Mistral API key. 
+
+For example, in Linux:
 ```
 export MISTRAL_API_KEY=<your-api-key>
 ```
