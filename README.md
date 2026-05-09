@@ -139,6 +139,12 @@ for a Mistral model under the types of rephrasing found in [Dataset](#Dataset).
 - model-graded (content checking using an LLM)
 	- don't just check for key phrases like "I can't ...", "I'm unable to ...", but also for actual information provided.
 	- write prompt
+
+- Run the evaluation using
+```plaintext
+inspect eval refusal.py@refusal --max-concurrency 2 --retry 5 --log-dir logs
+```
+
 - Manually check the model-graded results
 
 ## Dataset
