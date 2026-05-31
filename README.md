@@ -105,6 +105,7 @@ We will try to answer the question:
 
 <summary> Click here to expand Milestones </summary>
 
+- `260509` First successful eval run
 - `260504` Finish first prompt database.
 - `260420` First draft for prompt database.
 - `260417` Formulate research question.
