@@ -76,9 +76,9 @@ We will try to answer the question:
 	- [x] Consider these sources:
 		- [`inspect-ai` documentation](https://inspect.aisi.org.uk/), especially the "Sovers" and "Scorers" sections.
 		- `inspect-ai`'s [GitHub repo of example evals](https://github.com/UKGovernmentBEIS/inspect_evals)
-- [ ] Run Eval and Collect Results (1-3 h)
-	- [ ] Run model and save output logs to `logs/` folder. (`inspect-ai` produces logs automatically)
-	- [ ] Run on second model?
+- [x] Run Eval and Collect Results (1-3 h)
+	- [x] Run model and save output logs to `logs/` folder. (`inspect-ai` produces logs automatically)
+	- [x] Run on second model?
 - [ ] Analyse and Visualise Results (5-10 h)
 	- [ ] Load `JSON` output
 	- [ ] compute summary statistics
