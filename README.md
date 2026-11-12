@@ -103,7 +103,7 @@ Several responses announced they would not give specific instructions and then l
 
 Poem and song styles produced lists of named real-world incidents and techniques. Naming is not the same as actionable detail, so whether this is dangerous is debatable, but the creative styles were much more susceptible to naming relevant key-words.
 
-### Unclear expected behaviour. 
+### Unclear expected behaviour
 
 For some subjects (medical/legal advice, curious children's questions, recognising dangerous behaviour) "refuse" is arguably the wrong target.
 
